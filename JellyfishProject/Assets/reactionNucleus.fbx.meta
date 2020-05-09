@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: ca25411121778384582487055f4d8ff5
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: HydroProton
+    100002: HydroProton.001
+    100004: Neutron1
+    100006: Neutron2
+    100008: Neutron3
+    100010: Neutron4
+    100012: Neutron5
+    100014: Neutron6
+    100016: Neutron7
+    100018: Neutron8
+    100020: Proton1
+    100022: Proton2
+    100024: Proton3
+    100026: Proton4
+    100028: Proton5
+    100030: Proton6
+    100032: Proton7
+    100034: Proton8
+    100036: //RootNode
+    400000: HydroProton
+    400002: HydroProton.001
+    400004: Neutron1
+    400006: Neutron2
+    400008: Neutron3
+    400010: Neutron4
+    400012: Neutron5
+    400014: Neutron6
+    400016: Neutron7
+    400018: Neutron8
+    400020: Proton1
+    400022: Proton2
+    400024: Proton3
+    400026: Proton4
+    400028: Proton5
+    400030: Proton6
+    400032: Proton7
+    400034: Proton8
+    400036: //RootNode
+    2100000: Material.001
+    2100002: Material.020
+    2100004: Material.006
+    2100006: Material
+    2100008: Material.008
+    2100010: Material.010
+    2100012: Material.011
+    2100014: Material.013
+    2100016: Material.016
+    2100018: Material.018
+    2100020: Material.004
+    2100022: Material.007
+    2300000: HydroProton
+    2300002: HydroProton.001
+    2300004: Neutron1
+    2300006: Neutron2
+    2300008: Neutron3
+    2300010: Neutron4
+    2300012: Neutron5
+    2300014: Neutron6
+    2300016: Neutron7
+    2300018: Neutron8
+    2300020: Proton1
+    2300022: Proton2
+    2300024: Proton3
+    2300026: Proton4
+    2300028: Proton5
+    2300030: Proton6
+    2300032: Proton7
+    2300034: Proton8
+    3300000: HydroProton
+    3300002: HydroProton.001
+    3300004: Neutron1
+    3300006: Neutron2
+    3300008: Neutron3
+    3300010: Neutron4
+    3300012: Neutron5
+    3300014: Neutron6
+    3300016: Neutron7
+    3300018: Neutron8
+    3300020: Proton1
+    3300022: Proton2
+    3300024: Proton3
+    3300026: Proton4
+    3300028: Proton5
+    3300030: Proton6
+    3300032: Proton7
+    3300034: Proton8
+    4300000: Proton1
+    4300002: Neutron1
+    4300004: Proton2
+    4300006: Neutron2
+    4300008: Proton3
+    4300010: Neutron3
+    4300012: Proton4
+    4300014: Proton5
+    4300016: Neutron4
+    4300018: Proton6
+    4300020: Neutron7
+    4300022: Neutron5
+    4300024: Proton7
+    4300026: Neutron8
+    4300028: Proton8
+    4300030: Neutron6
+    4300032: HydroProton
+    4300034: HydroProton.001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,294 @@
+fileFormatVersion: 2
+guid: 6cc70ae6b99c044408df3b33b8f02b30
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BezierCircle
+    100002: Camera
+    100004: 'InnerCircle '
+    100006: InnerElectron1
+    100008: InnerElectron2
+    100010: Light
+    100012: Neutron1
+    100014: Neutron2
+    100016: Neutron3
+    100018: Neutron4
+    100020: Neutron5
+    100022: Neutron6
+    100024: Neutron7
+    100026: Neutron8
+    100028: OuterElectron1
+    100030: OuterElectron2
+    100032: OuterElectron3
+    100034: OuterElectron4
+    100036: OuterElectron5
+    100038: OuterElectron6
+    100040: //RootNode
+    100042: Proton1
+    100044: Proton2
+    100046: Proton3
+    100048: Proton4
+    100050: Proton5
+    100052: Proton6
+    100054: Proton7
+    100056: Proton8
+    400000: BezierCircle
+    400002: Camera
+    400004: 'InnerCircle '
+    400006: InnerElectron1
+    400008: InnerElectron2
+    400010: Light
+    400012: Neutron1
+    400014: Neutron2
+    400016: Neutron3
+    400018: Neutron4
+    400020: Neutron5
+    400022: Neutron6
+    400024: Neutron7
+    400026: Neutron8
+    400028: OuterElectron1
+    400030: OuterElectron2
+    400032: OuterElectron3
+    400034: OuterElectron4
+    400036: OuterElectron5
+    400038: OuterElectron6
+    400040: //RootNode
+    400042: Proton1
+    400044: Proton2
+    400046: Proton3
+    400048: Proton4
+    400050: Proton5
+    400052: Proton6
+    400054: Proton7
+    400056: Proton8
+    2000000: Camera
+    2100000: Material.002
+    2100002: Material.001
+    2100004: Material.020
+    2100006: Material.006
+    2100008: Material
+    2100010: Material.008
+    2100012: Material.010
+    2100014: Material.011
+    2100016: Material.013
+    2100018: Material.016
+    2100020: Material.018
+    2300000: BezierCircle
+    2300002: 'InnerCircle '
+    2300004: InnerElectron1
+    2300006: InnerElectron2
+    2300008: Neutron1
+    2300010: Neutron2
+    2300012: Neutron3
+    2300014: Neutron4
+    2300016: Neutron5
+    2300018: Neutron6
+    2300020: Neutron7
+    2300022: Neutron8
+    2300024: OuterElectron1
+    2300026: OuterElectron2
+    2300028: OuterElectron3
+    2300030: OuterElectron4
+    2300032: OuterElectron5
+    2300034: OuterElectron6
+    2300036: Proton1
+    2300038: Proton2
+    2300040: Proton3
+    2300042: Proton4
+    2300044: Proton5
+    2300046: Proton6
+    2300048: Proton7
+    2300050: Proton8
+    3300000: BezierCircle
+    3300002: 'InnerCircle '
+    3300004: InnerElectron1
+    3300006: InnerElectron2
+    3300008: Neutron1
+    3300010: Neutron2
+    3300012: Neutron3
+    3300014: Neutron4
+    3300016: Neutron5
+    3300018: Neutron6
+    3300020: Neutron7
+    3300022: Neutron8
+    3300024: OuterElectron1
+    3300026: OuterElectron2
+    3300028: OuterElectron3
+    3300030: OuterElectron4
+    3300032: OuterElectron5
+    3300034: OuterElectron6
+    3300036: Proton1
+    3300038: Proton2
+    3300040: Proton3
+    3300042: Proton4
+    3300044: Proton5
+    3300046: Proton6
+    3300048: Proton7
+    3300050: Proton8
+    4300000: InnerElectron1
+    4300002: 'InnerCircle '
+    4300004: Proton1
+    4300006: InnerElectron2
+    4300008: Neutron1
+    4300010: Proton2
+    4300012: Neutron2
+    4300014: Proton3
+    4300016: Neutron3
+    4300018: Proton4
+    4300020: Proton5
+    4300022: Neutron4
+    4300024: Proton6
+    4300026: Neutron7
+    4300028: Neutron5
+    4300030: Proton7
+    4300032: Neutron8
+    4300034: Proton8
+    4300036: Neutron6
+    4300038: BezierCircle
+    4300040: OuterElectron1
+    4300042: OuterElectron4
+    4300044: OuterElectron2
+    4300046: OuterElectron3
+    4300048: OuterElectron5
+    4300050: OuterElectron6
+    7400000: OuterElectron5|Sphere.003Action
+    7400002: OuterElectron5|Sphere.003Action (1)
+    9500000: //RootNode
+    10800000: Light
+    11100000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: OuterElectron5|Sphere.003Action
+      takeName: OuterElectron5|Sphere.003Action
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: OuterElectron5|Sphere.003Action (1)
+      takeName: OuterElectron5|Sphere.003Action
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
