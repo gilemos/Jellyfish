@@ -15,8 +15,21 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     public GameObject oxygenModel, oxygenExterior, hydrogenModel, hydrogenExterior, 
         waterModel, waterElectrosphere, cloud1, cloud2, cloud3;
     public bool isTracked = false;
-    private bool hasFoundWater = false;
+    private static bool hasFoundWater = false;
     public GameObject awardCanvas;
+
+    public static bool HasFoundWater
+    {
+        get
+        {
+            return hasFoundWater;
+        }
+
+        set
+        {
+            hasFoundWater = value;
+        }
+    }
 
     #region UNITY_MONOBEHAVIOUR_METHODS
 
@@ -111,10 +124,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             oxygenModel.SetActive(false);
             oxygenExterior.SetActive(false);
 
-            if(!hasFoundWater)
+            if(!HasFoundWater)
             {
                 awardCanvas.SetActive(true);
-                hasFoundWater = true;
+                HasFoundWater = true;
             }
         }
         else
@@ -131,8 +144,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             }
             if (mTrackableBehaviour.TrackableName == "Fissure")
             {
-                Debug.Log("Got to fissure!! " + hasFoundWater);
-                if (hasFoundWater)
+                Debug.Log("Got to fissure!! " + HasFoundWater);
+                if (HasFoundWater)
                 {
                     cloud1.SetActive(true);
                     cloud2.SetActive(true);
