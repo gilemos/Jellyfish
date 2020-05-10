@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VuforiaUnityInfo version="7.0">
+    <TargetSet version="5.0" toolVersion="2.8.0">
+        <CylinderTarget name="smallTriangle" version="3.0" targetId="ac47e2de59424ebcb5d76f712bc0a24b" sideLength="633.000000" topDiameter="292.208008" bottomDiameter="292.208008" sideImage="smallTriangle.Body_scaled.jpg"/>
+        <CylinderTarget name="triangles" version="3.0" targetId="589e6d4c0db54da1b258345bc07b9049" sideLength="634.000000" topDiameter="364.147003" bottomDiameter="364.147003" sideImage="triangles.Body_scaled.jpg"/>
+    </TargetSet>
+</VuforiaUnityInfo>

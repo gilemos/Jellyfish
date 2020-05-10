@@ -1,11 +1,3 @@
-/*==============================================================================
-Copyright (c) 2017 PTC Inc. All Rights Reserved.
-
-Copyright (c) 2010-2014 Qualcomm Connected Experiences, Inc.
-All Rights Reserved.
-Confidential and Proprietary - Protected under copyright and other laws.
-==============================================================================*/
-
 using UnityEngine;
 using Vuforia;
 
@@ -20,7 +12,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     #endregion // PROTECTED_MEMBER_VARIABLES
 
-    public GameObject oxygenModel, oxygenExterior, hydrogenModel, hydrogenExterior, waterModel, waterElectrosphere;
+    public GameObject oxygenModel, oxygenExterior, hydrogenModel, hydrogenExterior, 
+        waterModel, waterElectrosphere, cloud1, cloud2, cloud3;
     public bool isTracked = false;
     private bool hasFoundWater = false;
     public GameObject awardCanvas;
@@ -40,6 +33,9 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         hydrogenModel.SetActive(false);
         hydrogenExterior.SetActive(false);
         awardCanvas.SetActive(false);
+        cloud1.SetActive(false);
+        cloud2.SetActive(false);
+        cloud3.SetActive(false);
     }
 
     protected virtual void OnDestroy()
@@ -118,7 +114,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             if(!hasFoundWater)
             {
                 awardCanvas.SetActive(true);
-                hasFoundWater = false;
+                hasFoundWater = true;
             }
         }
         else
@@ -133,6 +129,17 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
                 hydrogenModel.SetActive(true);
                 hydrogenExterior.SetActive(true);
             }
+            if (mTrackableBehaviour.TrackableName == "Fissure")
+            {
+                Debug.Log("Got to fissure!! " + hasFoundWater);
+                if (hasFoundWater)
+                {
+                    cloud1.SetActive(true);
+                    cloud2.SetActive(true);
+                    cloud3.SetActive(true);
+                }
+            }
+
         }
     }
 
@@ -170,18 +177,38 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             oxygenModel.SetActive(false);
             oxygenExterior.SetActive(false);
         }
+        if (mTrackableBehaviour.TrackableName == "Fissure")
+        {
+            cloud1.SetActive(false);
+            cloud2.SetActive(false);
+            cloud3.SetActive(false);
+        }
     }
 
     private bool isBothTargetsTracked()
     {
-        bool value = true;
-
-        foreach (DefaultTrackableEventHandler e in FindObjectsOfType<DefaultTrackableEventHandler>())
-        {
-            if (!e.isTracked)
-                value = false;
+        if (isTrackingMarker("ImageTargetOxygen") && isTrackingMarker("ImageTargetHydrogen")) {
+            return true;
         }
-        return value;
+
+        return false;
+       // bool value = true;
+
+       // foreach (DefaultTrackableEventHandler e in FindObjectsOfType<DefaultTrackableEventHandler>())
+       // {
+       //     if (!e.isTracked)
+       //         value = false;
+       // }
+       // return value;
+    }
+
+    private bool isTrackingMarker(string imageTargetName)
+    {
+        print(imageTargetName);
+        var imageTarget = GameObject.Find(imageTargetName);
+        var trackable = imageTarget.GetComponent<TrackableBehaviour>();
+        var status = trackable.CurrentStatus;
+        return status == TrackableBehaviour.Status.TRACKED;
     }
 
 
