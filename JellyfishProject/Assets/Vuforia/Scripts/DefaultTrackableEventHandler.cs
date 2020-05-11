@@ -144,7 +144,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             }
             if (mTrackableBehaviour.TrackableName == "Fissure")
             {
-                Debug.Log("Got to fissure!! " + HasFoundWater);
                 if (HasFoundWater)
                 {
                     cloud1.SetActive(true);
@@ -152,7 +151,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
                     cloud3.SetActive(true);
                 }
             }
-
         }
     }
 
@@ -183,12 +181,21 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         {
             hydrogenModel.SetActive(false);
             hydrogenExterior.SetActive(false);
-
+            if (isTrackingMarker("ImageTargetOxygen"))
+            {
+                oxygenModel.SetActive(true);
+                oxygenExterior.SetActive(true);
+            }
         }
         if (mTrackableBehaviour.TrackableName == "Oxygen")
         {
             oxygenModel.SetActive(false);
             oxygenExterior.SetActive(false);
+            if (isTrackingMarker("ImageTargetHydrogen"))
+            {
+                hydrogenModel.SetActive(true);
+                hydrogenExterior.SetActive(true);
+            }
         }
         if (mTrackableBehaviour.TrackableName == "Fissure")
         {
@@ -203,16 +210,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         if (isTrackingMarker("ImageTargetOxygen") && isTrackingMarker("ImageTargetHydrogen")) {
             return true;
         }
-
         return false;
-       // bool value = true;
-
-       // foreach (DefaultTrackableEventHandler e in FindObjectsOfType<DefaultTrackableEventHandler>())
-       // {
-       //     if (!e.isTracked)
-       //         value = false;
-       // }
-       // return value;
     }
 
     private bool isTrackingMarker(string imageTargetName)
